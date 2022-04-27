@@ -27,5 +27,9 @@
     lệnh: git checkout {branch name}
         ví dụ: git checkout hao-dep-trai
 
+11/ kết hợp code của 2 nhánh:
+    note: nếu muốn kết hợp code vào master thì bạn phải đứng ở nhánh master
+    lệnh: git merge {branch_name}
+    ví dụ: git merge hao-dep-trai
 
     
