@@ -7,7 +7,7 @@
 3/ đưa code của mình lên server github/gitlab:
     -) git add . | git add ./index.html
     -) git commit -m "your comment"
-    -) git push origin master
+    -) git push origin master | git push
 4/ lệnh kiểm tra trạng thái của git: git status 
 5/ lệnh giúp git biết được sẽ đưa code lên chỗ nào 
         -lệnh: git remote and origin {name} {url_github}
