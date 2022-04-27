@@ -1,9 +1,19 @@
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
 1/ git init: khởi tạo git
 2/kiểm tra phiên bản git: git --version
 3/ đưa code của mình lên server github/gitlab:
-    -) git add .
+    -) git add . | git add ./index.html
     -) git commit -m "your comment"
-    -) git pust
-4/ lệnh kiểm tra trạng thái của git: git status    
+    -) git push origin master
+4/ lệnh kiểm tra trạng thái của git: git status 
+5/ lệnh giúp git biết được sẽ đưa code lên chỗ nào 
+        -lệnh: git remote and origin {name} {url_github}
+        ví dụ:  git remote and origin https://github.com/huyNguyen12620/git-bc28.git
+6/ kiểm tra xem add remote thành công chưa ?
+
+    lệnh: git remote
 
     
